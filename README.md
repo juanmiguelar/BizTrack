@@ -18,3 +18,16 @@ View your app in AI Studio: https://ai.studio/apps/drive/1ZMTb1KfBXB85QnVuQJTcle
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## Build for Mobile
+
+**Prerequisites:**
+- Android Studio (for Android)
+- Xcode (for iOS, macOS only)
+
+1. Sync web assets:
+   `npm run build && npx cap sync`
+2. Open Android project:
+   `npx cap open android`
+3. Open iOS project:
+   `npx cap open ios`
