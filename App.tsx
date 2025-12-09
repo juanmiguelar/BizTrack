@@ -116,10 +116,7 @@ function App() {
       <main className="flex-1 overflow-y-auto h-screen relative pb-24 md:pb-8">
         
         {/* Warning Banner (Mobile only) */}
-        <div className="md:hidden bg-amber-50 px-2 pb-2 text-center text-xs text-amber-800 border-b border-amber-100 flex items-center justify-center gap-2" style={{ paddingTop: 'calc(env(safe-area-inset-top) + 0.5rem)' }}>
-           <AlertTriangle size={14} />
-           <span>Advertencia: Los datos no se respaldan en la nube.</span>
-        </div>
+        <div className="md:hidden w-full bg-white" style={{ paddingTop: 'calc(env(safe-area-inset-top) + 0.5rem)' }} />
 
         {/* Header */}
         <header className="bg-white/80 backdrop-blur-md sticky top-0 z-20 border-b border-slate-200 px-4 py-3 md:px-6 md:py-4 flex flex-col xl:flex-row justify-between items-start xl:items-center gap-4">
