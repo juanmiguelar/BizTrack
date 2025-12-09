@@ -1,0 +1,5 @@
+{
+  "name": "BizTrack Local",
+  "description": "Una aplicación completa para la gestión de ingresos y egresos de negocios. Soporte para múltiples monedas, gráficos interactivos, adjuntar fotos y almacenamiento totalmente local.",
+  "requestFramePermissions": []
+}
